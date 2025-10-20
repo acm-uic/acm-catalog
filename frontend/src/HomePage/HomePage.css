@@ -1,0 +1,31 @@
+body{
+    background-image: url("../assets/MainMenuPic.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: -1;
+    padding: 0;
+    margin: 0;
+}
+
+#HomePageTitle{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: orange;
+}
+
+#AboutUs{
+    border-color: black;
+    border-width: 0.25em;
+    border-style: solid;
+    background-color: rgb(148, 120, 67);
+    margin-left: 2%;
+    width: 40%;
+    margin-top: 25%;
+
+
+    
+}
+
