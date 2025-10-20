@@ -7,12 +7,10 @@ function HomePage(){
     
     return (
         <>
-            <div>
-                <Title/>
-            </div>
-            <div>
-                <AboutUs/>
-            </div>
+        <div id="background">
+            <Title/>
+            <AboutUs/>
+        </div>
         </>
     );
 };

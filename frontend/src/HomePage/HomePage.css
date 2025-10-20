@@ -1,31 +1,43 @@
 body{
+    margin: 0;
+}
+
+#background{
     background-image: url("../assets/MainMenuPic.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    position: relative;
+    position: sticky;
+    top: 0;
     z-index: -1;
-    padding: 0;
-    margin: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
 #HomePageTitle{
+    position: sticky;
+    top:0;
     display: flex;
     justify-content: center;
-    height: 100%;
+    height: 5em;
     background-color: orange;
 }
 
-#AboutUs{
-    border-color: black;
-    border-width: 0.25em;
-    border-style: solid;
-    background-color: rgb(148, 120, 67);
-    margin-left: 2%;
-    width: 40%;
-    margin-top: 25%;
-
-
-    
+#A_div{
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
+
+#AboutUs{
+    border-radius: 20px;
+    background-color:orange;
+    width: 45%;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    padding: 0.5em;
+}
+
+
 
