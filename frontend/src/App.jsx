@@ -1,14 +1,10 @@
-import { useState } from 'react'
-import './App.css'
+import HomePage from './HomePage/HomePage.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
-        <h1>ACM Catalog</h1>
-        <p>Andres Wrote this</p>
+        <HomePage/>
       </div>
     </>
   )
