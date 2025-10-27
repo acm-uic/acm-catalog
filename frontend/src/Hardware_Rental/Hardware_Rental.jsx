@@ -23,7 +23,7 @@ function HardwareRental(){
         }
     };
 
-    const listEntry = [Entry("HDMI Cable", 28, "Charge yo trash"),Entry("Monitors",20,"Please daddy systems. Lend me a monitor"),Entry("Handcuffs",7,"Arrest me daddy")]
+    const listEntry = [Entry("HDMI Cable", 28, "Charge yo trash"),Entry("Trash Bag", 1, "Why do you want this")]
     const displayEntries = listEntry.map((element)=>{
         return (
         <EntryListItem name={element.name} qty={element.Qty} description={element.description}/>
