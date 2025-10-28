@@ -1,0 +1,51 @@
+/* Global Styles - Applied to entire app */
+
+/* 
+ * Set root font size for rem calculations
+ * 1rem = 16px (default browser size)
+ * This allows users to scale the entire site via browser settings
+ */
+html {
+  font-size: 16px; /* Base size - DON'T change without updating docs */
+}
+
+/* Apply Londrina Solid font to all text */
+* {
+  font-family: "Londrina Solid", cursive;
+}
+
+/* Reset default margins and padding */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Londrina Solid", cursive;
+  font-size: 1rem; /* 16px - Base body text */
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Make sure all inputs and buttons also use the font */
+input,
+button,
+textarea,
+select {
+  font-family: "Londrina Solid", cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Londrina Solid", cursive;
+  font-weight: 400; /* Londrina Solid works best with normal weight for headers */
+}
+
+/* Box sizing for better layout control */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
