@@ -1,6 +1,7 @@
 import React from "react";
 import EntryListItem from "./EntryListItem.jsx"
 import "./Hardware_rental.css"
+import { useState } from "react";
 
 function HardwareRental(){
     const Entry = (name, Qty, description)=>{
@@ -22,8 +23,8 @@ function HardwareRental(){
             }
         }
     };
+    const [listEntry, setlistEntry]= useState([Entry("HDMI Cable", 28, "Charge yo trash"),Entry("Trash Bag", 1, "Why do you want this")])
 
-    const listEntry = [Entry("HDMI Cable", 28, "Charge yo trash"),Entry("Trash Bag", 1, "Why do you want this")]
     const displayEntries = listEntry.map((element)=>{
         return (
         <EntryListItem name={element.name} qty={element.Qty} description={element.description}/>

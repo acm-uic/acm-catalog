@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function EntryListItem({ name, qty, description }) {
-  
   const wholeStyle = {
     display: 'flex',
     flexDirection: 'row',
@@ -17,7 +16,7 @@ export default function EntryListItem({ name, qty, description }) {
   };
 
   const centerStyle = {
-    backgroundColor: 'rgb(233, 209, 103)',
+    backgroundColor: 'rgb(255, 255, 255)',
     width: '45%',
     display: 'flex',
     flexDirection: 'column',
@@ -25,7 +24,7 @@ export default function EntryListItem({ name, qty, description }) {
   };
 
   const rightStyle = {
-    backgroundColor: 'rgb(175, 152, 49)',
+    backgroundColor: 'rgb(255, 255, 255)',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
